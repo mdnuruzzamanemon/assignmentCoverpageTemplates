@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            /* padding: 5%; */
+            font-family: "Roboto", sans-serif;
+        }
+
+        .midBox {
+            margin: auto;
+            position: relative;
+        }
+
+        .midBox img {
+            position: absolute;
+            top: 40px;
+            width: 90%;
+            z-index: -5;
+            left: 5%;
+        }
+
+        .box1 {
+            height: 420px;
+        }
+
+        .box1 .uniName h1 {
+            font-size: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .uniName
+        {
+            transform: rotate(-45deg);
+            position: absolute;
+            left: -69px;
+            top: 133px;
+            /* right: 0; */
+            text-align: center;
+            /* background-color: #084A7F; */
+            /* width: 60%; */
+            color: #fff;
+            padding: 10px;
+            font-size: 45px;
+        }
+        .uniName h1 img
+        {
+            position: absolute;
+            z-index: -4;
+            /* top: 0;
+            bottom: 0;
+            height: 100%; */
+        }
+
+        .logoBOx {
+            text-align: right;
+            padding: 20px;
+        }
+
+        .logoBOx img {
+            width: 180px;
+            margin-right: 60px;
+            margin-top: 60px;
+        }
+
+        .boxMid2 {
+            width: 55%;
+            margin: auto;
+        }
+
+        .box2 .boxMid2 h2 {
+            color: #0794CF;
+            font-size: 35px;
+            font-weight: normal;
+            margin: 0;
+            margin-left: 25px;
+        }
+        .box2 .boxMid2 h1
+        {
+            font-size: 45px;
+            margin: 0;
+        }
+        .box2 .boxMid2 h3
+        {
+            margin: 0;
+            text-align: right;
+            position: relative;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 200px;
+            margin-top: 15px;
+        }
+        .box2 .boxMid2 h3 img
+        {
+            position: absolute;
+            z-index: -3;
+        }
+        .box2 .boxMid2 p
+        {
+            text-align: center;
+        }
+        /* .box3
+        {
+            height: 400px;
+        } */
+        .anotherSection {
+            position: relative;
+        }
+
+        .anotherSection .bottomBoxImg {
+            width: 100%;
+            height: 450px;
+            position: absolute;
+            top: -25px;
+            z-index: -2;
+        }
+
+
+        .title {
+            position: relative;
+            text-align: center; /* Optional: Center text and dashes */
+            margin: 1em 0; /* Adjust the space around the title */
+        }
+
+        .title::before,
+        .title::after {
+            content: '——'; /* Use em dash */
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            font-size: 1.5em; /* Adjust size if needed */
+        }
+
+        .title::before {
+            left: -2em; /* Adjust distance from the text */
+        }
+
+        .title::after {
+            right: -2em; /* Adjust distance from the text */
+        }
+
+        .bottomText
+        {
+            text-align: right;
+            padding-top: 130px;
+            padding-right: 50px;
+        }
+        .bottomText img
+        {
+            width: 55%;
+        }
+        .bottomText h4
+        {
+            margin: 5px 0;
+            font-size: 18px;
+            font-weight: normal;
+        }
+        .bottomText h2
+        {
+            margin: 5px 0;
+            font-size: 25px;
+            font-weight: 500;
+        }
+        .bottomText h3
+        {
+            margin: 5px 0;
+            font-size: 22px;
+            margin-bottom: 10px;
+            font-weight: 500;
+        }
+        .nameHeading
+        {
+            margin: 5px 0;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainBox">
+        <div class="midBox">
+
+            <img src="Untitled.png" alt="">
+
+
+        </div>
+        <div class="box1">
+            <div class="uniName">
+                
+                <h1>
+                    <img src="Untitled34213.png" alt="">
+                    Green University of Bangladesh
+                </h1>
+            </div>
+            <div class="logoBOx">
+                <img src="Untitled1.png" alt="">
+            </div>
+        </div>
+        <div class="box2">
+            <div class="boxMid2">
+                <h2>University</h2>
+                <h1>Assignment</h1>
+                <h3>
+                    <img src="Untitled4.png" alt="">
+                    <span>Year 2024</span>
+                </h3>
+                <p> <span class="title"> Title of something here</span></p>
+            </div>
+            <div class="anotherSection">
+                <img class="bottomBoxImg" src="image copy.png" alt="">
+                <div class="bottomText">
+                    <h4>Academic Year: 2023-2024</h4>
+                    <h3>Department of Computer Science & Engineering</h3>
+                    <img src="image.png" alt="">
+                    <h4 class="nameHeading"><Span>Mr. Student Name</Span> 
+                        <span>|</span> 
+                        <span>ID: 221002000</span>
+                    </h4>
+                    <h2>Database Management System</h2>
+                    <h4>Date of Submission: March 15, 2024</h4>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="box3">
+
+        </div> -->
+    </div>
+</body>
+
+</html>
