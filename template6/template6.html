@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        @font-face {
+            font-family: 'Calibri';
+            src: url('Calibri.ttf') format('truetype');
+        
+        }
+        body
+        {
+            font-family: 'Calibri';
+        }
+        .mainBox
+        {
+            position: relative;
+        }
+        .mainBg
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1040px;
+            z-index: -10;
+        }
+        .textBox1
+        {
+            text-align: center;
+            padding: 30px 30px 0 30px;
+
+        }
+        .textBox1 h2
+        {
+            font-size: 30px;
+            color: #7F7F7F;
+            font-weight: 500;
+        }
+        .textBox1 h1
+        {
+            font-size: 50px;
+            color: #1E659B;
+            line-height: 1;
+            margin: 10px 0;
+        }
+        .textBox1 h3
+        {
+            font-size: 27px;
+            color: #7F7F7F;
+        }
+        .textBox1 .date
+        {
+            color: #1E659B;
+            margin-top: 50px;
+            font-weight: 500;
+        }
+        .textBox2
+        {
+            margin-top: 400px;
+            display: flex;
+            padding: 0 50px;
+            font-weight: 500;
+        }
+        .textBox2 .leftBox
+        {
+            width: 60%;
+        }
+        .textBox2 .rightBox
+        {
+            width: 40%;
+        }
+        .textBox2 .leftBox .SIDBox
+        {
+            display: flex;
+        }
+        .textBox2 .leftBox .SIDBox p
+        {
+            color: #1E659B;
+            font-size: 20px;
+        }
+        .textBox2 .leftBox .SIDBox .sid
+        {
+            margin-left: 10px;
+            border-left: 2px solid #1E659B;
+            padding-left: 10px;
+        }
+        .textBox2 .leftBox h1
+        {
+            font-size: 40px;
+            color: #7F7F7F;
+        }
+        .textBox2 .leftBox .name
+        {
+            color: #1E659B;
+            font-size: 20px;
+            margin-top: 10px;
+        }
+        .textBox2 .rightBox img
+        {
+            margin-top: 70px;
+            max-width: 100%;
+        }
+        .textBox3
+        {
+            margin-top: 50px;
+            text-align: center;
+        }
+        .textBox3 p
+        {
+            color: #7F7F7F;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainBox">
+        <img class="mainBg" src="Untitled.jpg" alt="">
+        <div class="textBox1">
+            <h2>Case Study</h2>
+            <h1>This is the title of the assignmet you want to write.</h1>
+            <h3>Lorem ipsum Some sub title here.</h3>
+            <h3 class="date">July 20, 2021</h3>
+        </div>
+        <div class="textBox2">
+            <div class="leftBox">
+                <div class="SIDBox">
+                    <p>Lorem, ipsum dolor.</p>
+                    <p class="sid">SID: <span>221692696</span></p>
+                </div>
+                <h1>Lorem, ipsum dolor.</h1>
+                <p class="name">Mr. Sheikh Rafiquzzaman Khan</p>
+            </div>
+            <div class="rightBox">
+                <img src="logo.png" alt="">
+            </div>
+        </div>
+        <div class="textBox3">
+            <p>a option for optional text here. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, voluptas?</p>
+        </div>
+    </div>
+</body>
+</html>
