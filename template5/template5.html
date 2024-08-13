@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        @font-face {
+            font-family: 'AgencyFB';
+            src: url('AgencyFB-Bold.ttf') format('truetype');
+
+        }
+
+        @font-face {
+            font-family: 'Poppins';
+            src: url('Poppins-Regular.ttf') format('truetype');
+
+        }
+
+        body {
+            font-family: 'Poppins';
+        }
+
+        .mainBOx {
+            position: relative;
+        }
+
+        .continer {
+            padding: 35px;
+        }
+
+        .mainBg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1040px;
+            z-index: -10;
+        }
+
+        .textBox1 .leftBox h1 {
+            border-left: 10px solid #E16F21;
+            padding-left: 10px;
+            line-height: 1;
+            text-transform: uppercase;
+            font-size: 45px;
+            font-weight: 500;
+        }
+
+        .textBox1 .leftBox h1 span {
+            display: block;
+            font-family: 'AgencyFB';
+            font-size: 90px;
+            color: #E16F21;
+            line-height: .8;
+
+        }
+
+        .textBox1 {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .textBox1 .leftBox {
+            width: 70%;
+        }
+
+        .textBox1 .rightBox {
+            width: 30%;
+            display: flex;
+            align-items: end;
+            text-align: right;
+        }
+
+        .textBox1 .rightBox p {
+            font-size: 14px;
+            color: #ffffff;
+            line-height: 1.1;
+        }
+
+        .textBox2 {
+            margin-top: 10px;
+        }
+
+        .textBox2 p {
+            font-size: 14px;
+            width: 52%;
+        }
+
+        .textBox2 p span {
+            color: #E16F21;
+        }
+
+        .textBox3 {
+            margin-top: 50px;
+        }
+
+        .textBox3 h4 {
+            text-transform: uppercase;
+            font-weight: 500;
+            width: 33%;
+            font-size: 18px;
+            line-height: 1.2;
+        }
+
+        .textBox3 h4 span {
+            color: #E16F21;
+            display: block;
+            border-left: 2px solid #E16F21;
+            padding-left: 10px;
+        }
+
+        .textBox4 {
+            margin-top: 530px;
+            display: flex;
+        }
+
+        .textBox4 .leftBox {
+            display: flex;
+            align-items: end;
+            width: 30%;
+        }
+
+        .textBox4 .rightBox {
+            width: 70%;
+        }
+        .textBox4 .leftBox h1
+        {
+            font-family: 'AgencyFB';
+            font-size: 50px;
+        }
+        .textBox4 .leftBox h1 span
+        {
+            color: #E16F21;
+        }
+        .textBox4 .rightBox .container
+        {
+            width: 75%;
+        }
+        .textBox4 .rightBox h3
+        {
+            font-size: 22px;
+            color: #E16F21;
+        }
+        .textBox4 .rightBox p
+        {
+            font-size: 14px;
+            border-left: 3px solid #E16F21;
+            padding-left: 10px;
+            line-height: 1;
+            margin: 20px 0;
+        }
+        .textBox4 .rightBox .bottomBox
+        {
+            display: flex;
+            align-items: center;
+        }
+        .textBox4 .rightBox .bottomBox hr
+        {
+            width: 32%;
+            border: 2px solid #E16F21;
+        }
+        .textBox4 .rightBox .bottomBox h3
+        {
+            width: 65%;
+            margin-left: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="mainBOx">
+        <div class="continer">
+            <img class="mainBg" src="Untitled.jpg" alt="">
+            <div class="textBox1">
+                <div class="leftBox">
+                    <h1>
+                        <span>University</span>Assignmnet
+                    </h1>
+                </div>
+
+                <div class="rightBox">
+                    <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUER ADIPISCING ELIT SED DIAM</p>
+                </div>
+            </div>
+
+            <div class="textBox2">
+                <p>Prepared By: <span>Md Abul kashem Kuddus ALi Khan</span></p>
+            </div>
+
+            <div class="textBox3">
+                <h4>
+                    <span>Headline</span>
+                    Lorem, ipsum dolor.
+                </h4>
+            </div>
+
+            <div class="textBox4">
+                <div class="leftBox">
+                    <h1>
+                        20<span>24</span>
+                    </h1>
+                </div>
+
+                <div class="rightBox">
+                    <div class="container">
+                        <h3>LOREM IPSUM DUMMY TEXT</h3>
+                        <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUER ADIPISCING ELIT SED DIAM</p>
+                        <p>LOREM IPSUM DOLOR SIT AMET CONSECTETUER ADIPISCING ELIT SED DIAM</p>
+                        
+                    </div>
+                    <div class="bottomBox">
+                        <hr>
+                        <h3>TEXT REPLACEMENT</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
