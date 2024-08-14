@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        @font-face {
+            font-family: 'Calibri';
+            src: url('Calibri.ttf') format('truetype');
+        
+        }
+        body
+        {
+            font-family: 'Calibri';
+        }
+        .mainBox
+        {
+            position: relative;
+        }
+        .mainBg
+        {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 1040px;
+            z-index: -10;
+        }
+        .logoBox
+        {
+            padding-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .logoBox .logo
+        {
+            max-width: 30%;
+        }
+        .textBox1
+        {
+            margin-top: 50px;
+            text-align: center;
+            padding: 0 15px;
+        }
+        .textBox1 h2
+        {
+            font-size: 35px;
+            color: #E3A143;
+            font-weight: 500;
+        }
+        .textBox1 h1
+        {
+            font-size: 80px;
+            margin-bottom: 5px;
+        }
+        .textBox1 h3
+        {
+            font-size: 30px;
+            color: #464749;
+            font-weight: 500;
+        }
+        .textBox1 .date
+        {
+            margin-top: 35px;
+        }
+        .textBox2
+        {
+            margin-top: 380px;
+            padding: 0 50px;
+        }
+        .textBox2 .SIDBox
+        {
+            display: flex;
+        }
+        .textBox2  p
+        {
+            color: #464749;
+            font-size: 23px;
+        }
+        .textBox2 .SIDBox .sid
+        {
+            margin-left: 10px;
+            border-left: 2px solid #464749;
+            padding-left: 10px;
+        }
+        .textBox2 h1
+        {
+            font-size: 50px;
+            color: #E3A143;
+            font-weight: 500;
+        }
+        .textBox2 .bottomText
+        {
+            font-size: 16px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mainBox">
+        <img class="mainBg" src="Untitled.jpg" alt="">
+        <div class="logoBox">
+            <img src="image.png" alt="" class="logo">
+        </div>
+        <div class="textBox1">
+            <h2>Green University of Bangladesh</h2>
+            <h1>Assignment</h1>
+            <h3>Lorem ipsum sub-title here</h3>
+            <h3 class="date">August 18, 2021</h3>
+        </div>
+
+        <div class="textBox2">
+            <div class="SIDBox">
+                <p>Abu Saleh Mohammad Bin Anesur</p>
+                <p class="sid">SID: <span>221692696</span></p>
+            </div>
+            <h1>Course Name Here</h1>
+            <p>Mr. Lecturer Ahammmok</p>
+            <p class="bottomText">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus sapiente illo voluptatum repellat culpa rem?</p>
+        </div>
+    </div>
+</body>
+</html>
