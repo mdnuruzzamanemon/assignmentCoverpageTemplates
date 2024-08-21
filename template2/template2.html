@@ -24,7 +24,7 @@
         {
             position: relative;
         }
-        .mainBox img
+        .mainBox .mainBg
         {
             position: absolute;
             top: 0;
@@ -47,9 +47,20 @@
         }
         .year
         {
+            display: flex;
             margin-top: 370px;
-            text-align: right;
             margin-right: 100px;
+            justify-content: space-between;
+        }
+        .year .logo
+        {
+            margin-top: -70px;
+            margin-left: 90px;
+            
+        }
+        .year .logo img
+        {
+            max-width: 150px;
         }
         .year h1
         {
@@ -117,12 +128,15 @@
 </head>
 <body>
     <div class="mainBox">
-        <img src="Untitled.jpg" alt="">
+        <img class="mainBg" src="Untitled3.svg" alt="">
         <div class="headind1">
             <h1>Heading of the page</h1>
         </div>
 
         <div class="year">
+            <div class="logo">
+                <img src="image.png" alt="">
+            </div>
             <h1>2024</h1>
         </div>
 
